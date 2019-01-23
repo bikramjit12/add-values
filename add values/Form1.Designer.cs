@@ -36,6 +36,7 @@
             this.button = new System.Windows.Forms.Button();
             this.btnGo3 = new System.Windows.Forms.Button();
             this.lbxOutput = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // number4
@@ -105,11 +106,21 @@
             this.lbxOutput.Size = new System.Drawing.Size(120, 95);
             this.lbxOutput.TabIndex = 2;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(519, 231);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbxOutput);
             this.Controls.Add(this.btnGo3);
             this.Controls.Add(this.button);
@@ -136,6 +147,7 @@
         private System.Windows.Forms.Button button;
         private System.Windows.Forms.Button btnGo3;
         private System.Windows.Forms.ListBox lbxOutput;
+        private System.Windows.Forms.Button button1;
     }
 }
 
